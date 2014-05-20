@@ -1,0 +1,29 @@
+<h3>Hardware List</h3>
+
+<%= link_to 'New hardware', new_hardware_path, class: 'btn btn-warning', remote: true %>
+
+<table>
+  <thead>
+  <tr>
+    <th>Name</th>
+    <th>Inventory Number</th>
+    <th>Serial Number</th>
+    <th></th>
+    <th></th>
+  </tr>
+  </thead>
+
+  <tbody>
+  <% @hardwares.each do |hardware| %>
+      <tr>
+        <td><%= hardware.name %></td>
+        <td><%= hardware.inv_number %></td>
+        <td><%= hardware.serial_number %></td>
+        <td><%= link_to 'Edit', edit_hardware_path(hardware) %></td>
+        <td><%= link_to 'Destroy', hardware, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+  <% end %>
+  </tbody>
+</table>
+
+<br>

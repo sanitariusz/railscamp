@@ -6,7 +6,7 @@
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://127.0.0.1/railcamp</jdbc-url>
       <user-name>root</user-name>
-      <user-password>dfdbdfdddfcf</user-password>
+      <user-password>dfdbdfdddfcfdf9bdf98df99</user-password>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails railcamp: test" uuid="db5d6931-23f8-4232-8907-38024af544d0">
@@ -14,7 +14,7 @@
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://127.0.0.1/railcamp_test</jdbc-url>
       <user-name>root</user-name>
-      <user-password>dfdbdfdddfcf</user-password>
+      <user-password>dfdbdfdddfcfdf9bdf98df99</user-password>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails railcamp: production" uuid="35ab367c-efa9-4a21-928f-e4dbc042e478">

@@ -1,0 +1,10 @@
+.modal-header
+  %h1
+    = hardware.new_record? ? 'Nowy Sprzęt' : "Edycja sprzętu #{hardware.name}"
+= simple_form_for hardware, class: 'clearfix', remote: true do |h|
+  .modal-body
+    = h.input :name
+    = h.input :inv_number
+    = h.input :serial_number
+  .modal-footer
+    = h.submit 'Zapisz', class: 'btn btn-primary'

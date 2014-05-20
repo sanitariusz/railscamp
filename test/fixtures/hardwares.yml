@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id_hardware: 1
+  id_type: 1
+  inv_number: MyString
+  serial_number: MyString
+  status: 1
+  id_worker: 1
+  name: MyString
+  localization: 1
+  comments: MyText
+  last_rent: 1
+  last_return: 1
+
+two:
+  id_hardware: 1
+  id_type: 1
+  inv_number: MyString
+  serial_number: MyString
+  status: 1
+  id_worker: 1
+  name: MyString
+  localization: 1
+  comments: MyText
+  last_rent: 1
+  last_return: 1

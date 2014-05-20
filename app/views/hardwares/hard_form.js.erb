@@ -1,0 +1,3 @@
+m = $('#modal');
+m.html('<%= j(render partial: 'hardware_form', locals: {hardware: @hardware }) %>');
+m.modal('show');
